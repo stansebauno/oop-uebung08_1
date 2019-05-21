@@ -35,6 +35,7 @@ class AnalysenTest {
 	void testTorstatistikenToreProSpieltag2teLiga() throws IOException {
 		// 24.96875
 		assertEquals(24.968, Analysen.torstatistikenToreProSpieltag2teLiga(), 0.001);
+		System.out.println(Analysen.torstatistikenToreProSpieltag2teLiga());
 	}
 
 	/**
